@@ -1,0 +1,37 @@
+.header {
+    display: grid;
+    grid-template-areas:
+    "header-logo header-title"
+    "header-nav header-nav"
+    ;
+    grid-template-columns: auto 1fr;
+    
+    background-color: rgb(222, 151, 59);
+}
+
+.header__logo {
+    grid-area: header-logo;
+
+    align-self:flex-start;
+    aspect-ratio:1/1;
+    width: 100px;
+}
+.header__title {
+    grid-area: header-title;
+
+    text-align: center;
+    padding: 2rem 0;
+    margin: 0 auto;
+    color: hsl(0, 0%, 0%);
+}
+.header__nav {
+    grid-area: header-nav;
+}
+
+.white{
+    background-color: rgb(165, 161, 161);
+}
+
+.green{
+    background-color: rgb(94, 183, 75);
+}

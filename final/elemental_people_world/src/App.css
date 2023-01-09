@@ -1,0 +1,22 @@
+.app{
+    display: grid;
+    grid-template-rows: auto 1ft auto;
+
+    height: 100%;
+    background-color: rgb(238, 124, 124);
+}
+.skiplink{
+    position:absolute;
+    left:  -100%;
+}
+
+.skiplink:focus{
+    left: 50%;
+}
+.white{
+    background-color: rgb(165, 161, 161);
+}
+
+.green{
+    background-color: rgb(94, 183, 75);
+}

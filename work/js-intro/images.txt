@@ -1,0 +1,13 @@
+1_logo_self_designed.jpg:
+Self-designed icons (Copyright by Jiafeng Zhang)
+
+2_red_panda.jpg： (Copyright www.edgefx.in)
+https://www.edgefx.in/steps-to-build-embedded-c-programming-tutorial/
+
+3_ragdoll_cat.jpg： (Copyright www.allaboutcircuits.com)
+https://www.allaboutcircuits.com/technical-articles/getting-started-with-the-verilog-hardware-description-language/
+
+4_samoyed_dog.jpg: (Copyright retrocomputing.stackexchange.com)
+https://retrocomputing.stackexchange.com/questions/6322/who-is-credited-for-the-creation-of-assembly-language
+
+

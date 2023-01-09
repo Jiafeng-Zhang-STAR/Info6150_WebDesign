@@ -1,0 +1,130 @@
+.btn-menu{
+    text-align: right;
+}
+
+.global-nav__list {
+    display: none;
+
+    padding: 0;
+    margin: 0;
+    
+    list-style: none; 
+}
+
+.global-nav__list--open{
+    display:block;
+    text-align: right;
+}
+
+.global-nav__link {
+    display: inline-block;
+
+    padding: 0.5rem 1rem;
+
+    font-size: 1.3rem;
+
+    width: 38%;
+}
+
+.global-nav__link:hover {
+    background-color: dodgerblue;
+    color: black;
+}
+
+.global-nav a{
+    text-decoration: none;
+}
+
+
+
+
+.global-nav__list--dropdown > li{
+    position: relative;
+    flex-grow: 1;
+}
+
+.global-nav__list--dropdown{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(248, 244, 244);
+    list-style: none;
+    /* max-height: initial; */
+    
+    max-height: 0;
+}
+
+.global-nav__dropdownlist--open{
+
+    max-height: initial;
+}
+
+
+.global-nav__button{
+    min-width: 54px;
+    min-height: 54px;
+}
+
+/* .global-nav li:hover ul,
+.global-nav li:focus-within ul{
+    max-height: initial;
+}
+.global-nav li:hover button,
+.global-nav li:focus-within button{
+    max-height: initial;
+} */
+
+@media screen and (min-width: 44rem){
+    .global-nav__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+        padding: 0;
+        margin: 0;
+        
+        list-style: none; 
+    }
+    .global-nav__button{
+        display: none;
+    }
+    .global-nav__link {
+        width: 100%;
+    }
+    .global-nav__list--dropdown > li{
+        position: relative;
+        flex-grow: 1;
+    }
+    
+    .global-nav__list--dropdown{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background-color: rgb(248, 244, 244);
+        list-style: none;
+        /* max-height: initial; */
+        
+        max-height: 0;
+    }
+
+    .global-nav__dropdownlist--open{
+
+        max-height: initial;
+    }
+
+    .button__Theme{
+        background-color: brown;
+        color: aliceblue;
+    }
+    .navigation__link--1{
+        background-color: aliceblue;
+    }
+    .navigation__link--2{
+        background-color: rgb(234, 152, 10);
+    }
+    .navigation__link--3{
+        background-color: rgb(60, 187, 22);
+    }
+}

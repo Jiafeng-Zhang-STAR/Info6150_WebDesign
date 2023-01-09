@@ -1,0 +1,192 @@
+.subscribe{
+    display: grid;
+    grid-template-columns: 1ft 1ft;
+    grid-template-rows: repeat(22,1ft);
+    gap:0.5rem;
+    grid-template-areas: 
+    '1 1'
+    '2 2'
+    '3 3'
+    '4 4'
+    '5 5'
+    '6 6'
+    '7 7'
+    '8 8'
+    '9 9'
+    '10 10'
+    '11 11'
+    '12 12'
+    '13 13'
+    '14 14'
+    '15 15'
+    '16 16'
+    '17 17'
+    '18 18'
+    '19 19'
+    '20 20'
+    '21 21'
+    'submit cancel'
+    ;
+}
+
+.Main{
+    display: grid;
+    grid-template-columns: 1ft 1ft;
+    grid-template-rows:1ft 1ft;
+    gap:0.5rem;
+    grid-template-areas: 
+    "roleInformation Rolepicture"
+    "button Rolepicture";
+}
+
+.roleInformation{
+    grid-area: roleInformation;
+    justify-self:center;
+    background-color: lime;
+    width: 10rem;
+    align-items: center;
+    text-align: center;
+}
+
+.Rolepicture{
+    grid-area: Rolepicture;
+    justify-self:center;
+}
+
+.modal__open{
+    grid-area: button;
+    justify-self:center;
+    background-color: lime;
+    width: 10em;
+    height: 3em;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.form__title{
+    grid-area: 1;
+    justify-self:center;
+    grid-column: span 2;
+}
+
+.role__parameter11--label{
+    grid-area: 2;
+    grid-column: span 2;
+}
+.roleName{
+    grid-area: 3;
+    grid-column: span 2;
+}
+.role__parameter11--error{
+    grid-area: 4;
+    grid-column: span 2;
+    color:red;
+}
+.role__parameter12--label{
+    grid-area: 5;
+    grid-column: span 2;
+}
+.roleNameConfrim{
+    grid-area: 6;
+    grid-column: span 2;
+}
+.role__parameter12--error{
+    grid-area: 7;
+    grid-column: span 2;
+    color:red;
+}
+
+
+.roleHead{
+    grid-area: 9;
+    grid-column: span 2;
+}
+.role__parameter2--label{
+    grid-area: 8;
+    grid-column: span 2;
+}
+
+.roleBody{
+    grid-area: 11;
+    grid-column: span 2;
+}
+.role__parameter3--label{
+    grid-area: 10;
+    grid-column: span 2;
+}
+
+.roleLeftHand{
+    grid-area: 13;
+    grid-column: span 2;
+}
+.role__parameter4--label{
+    grid-area: 12;
+    grid-column: span 2;
+}
+
+.roleRightHand{
+    grid-area: 15;
+    grid-column: span 2;
+}
+.role__parameter5--label{
+    grid-area: 14;
+    grid-column: span 2;
+}
+
+.roleLeftLeg{
+    grid-area: 17;
+    grid-column: span 2;
+}
+.role__parameter6--label{
+    grid-area: 16;
+    grid-column: span 2;
+}
+.roleRightLeg{
+    grid-area: 19;
+    grid-column: span 2;
+}
+.role__parameter7--label{
+    grid-area: 18;
+    grid-column: span 2;
+}
+
+
+.equipmentChooser{
+    grid-area: 21;
+    grid-column: span 2;
+}
+.role__parameter8--label{
+    grid-area: 20;
+    grid-column: span 2;
+    color: rgb(0, 81, 255);
+}
+
+
+.subscribe__submit{
+    grid-area: submit;
+    justify-self:left;
+    background-color: lime;
+}
+
+.close{
+    grid-area: cancel;
+    justify-self:right;
+    background-color: lightcoral;
+}
+
+.modal button{
+    border-radius: 8px;
+    height: 60%;
+    width: 6rem;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 44rem){
+    
+
+
+}

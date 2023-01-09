@@ -1,0 +1,65 @@
+#homepage{
+    display: grid;
+    grid-template-rows: 15% auto 15%;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "a a a"
+        "c b b"
+        "d d d";
+}
+header{
+    grid-area: a;
+    background-color: plum;
+}
+.local-menu{
+    grid-area: c;
+    background-color: pink;
+    border-right: 1px solid black;
+}
+main{
+    grid-area: b;
+    background-color: pink;
+}
+main p{
+    padding-left: 25px;
+}
+footer{
+    grid-area: d;
+    text-align:left;
+    padding-left: 60px;
+    background-color: plum;
+    line-height: 60px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 0;
+}
+.menu a{
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+}
+.menu a:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+.local-menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 40px;
+    padding-right: 20px;
+}
+.local-menu ul li a{
+    display: inline-block;
+    width: 160px;
+    line-height: 30px;
+    
+}
+.local-menu ul li a:hover{
+    background-color: plum;  
+}

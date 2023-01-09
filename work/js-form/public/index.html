@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register Technical Collection</title>
+  <link rel="stylesheet" href="head_nav_footer_styles.css">
+  <link rel="stylesheet" href="main_styles.css">
+  <script defer src="index.js"></script>
+</head>
+
+<body>
+  <div id="root">
+    <header class="header">
+      <a href="main.html">
+        <img class="header__logo" src="images/1_logo_self_designed.jpg" alt="Click on the webpage of cute animal protection organization">
+      </a>
+      <h1 class="header__title">Electronics Engineers Technical Collection</h1>
+      <h2 class="header__title-changed">Welcome to the register page of "Electronics Engineers Technical Collection"</h2>
+    </header>
+
+    <nav class="navigation">
+      <li>
+        <button type="button"  class="button__HPL">Hardware Programming Languages</button>
+        <ul class="navigation__menu1 deactivate">
+          <li class="navigation__menu--item"><a class="navigation__link" href="main.html">Homepage</a></li>
+          <li class="navigation__menu--item"><a class="navigation__link" href="mcu_programming_language.html">Embedded C / Assembly</a></li>
+          <li class="navigation__menu--item"><a class="navigation__link" href="fpga_programming_language.html">Verilog / VHDL</a></li>
+        </ul>
+      </li>
+      <li>
+        <button type="button" class="button__PC">Programmable Chips</button>
+        <ul class="navigation__menu2 deactivate">
+          <li class="navigation__menu--item"><a class="navigation__link" href="microcontroller_unit.html">Microcontroller Unit</a></li>
+          <li class="navigation__menu--item"><a class="navigation__link" href="fpga.html">Field Programmable Gate Array </a></li>
+          <li class="navigation__menu--item"><a class="navigation__link" href="gpu.html">Graphics Processing Unit</a></li>
+        </ul>
+      </li>
+      <li>
+        <button type="button" class="button__ST">Software Tools</button>
+        <ul class="navigation__menu3 deactivate">
+          <li class="navigation__menu--item"><a class="navigation__link" href="ide.html">Integrated Dvelopment Environment</a></li>
+          <li class="navigation__menu--item"><a class="navigation__link" href="pcb.html">PCB Design Software</a></li>
+          <li class="navigation__menu--item"><a class="navigation__link" href="simulation.html">Circuit Simulation Software</a></li>
+        </ul>
+      </li>
+    </nav>
+    
+    <main class="main">
+      <form class="register" action="/register" method="POST">
+
+        <label class="register__label">
+          <span class="register__name--label">Name:&nbsp&nbsp</span>
+          <input name="Name" class="register__name">
+        </label>
+        <span class="register-name__error">This field is required, and less than 20 can not be empty</span>
+
+        <label class=email__label1>
+          <span class="register__email--label1">Email:&nbsp&nbsp&nbsp</span>
+          <input type="text" name="Email" class="email1">
+        </label>
+        <span class="register-email1__error"></span>
+
+        <label class=email__label2>
+          <span class="register__email--label2">Confirm:</span>
+          <input type="text" name="Confirm Email" class="email2">
+        </label>
+        <span class="register-email2__error"></span>
+
+
+        <label class=tier__label>
+          <span class="register__tier-label">Level:&nbsp</span>
+          <select name="tier" class="tier">
+            <option disabled selected value>Please select</option>
+            <!-- <option value=" ">Please select</option> -->
+            <option value="1">UAV Contrl Engineer</option>
+            <option value="2">Software Engineer</option>
+            <option value="3">Electronic Engineer</option>
+          </select>
+        </label>
+        
+        <button type="submit" class="register__submit">Register</button>
+
+        <label class=check__label>
+          <input type="checkbox" name="wants-spam" class="checkbox" checked/>
+          <span class="label">Do you want us to sent you annoying emails?</span>
+        </label>
+        
+      </form>
+    </main>
+
+    <footer class="footer">
+      <nav class="footer__nav">
+        <ul class="footer__menu">
+          <li class="footer__item">
+            <a class="footer__link" href="uva_control_engineers.html">UAV Control Engineers Technical Collection</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="software_engineers.html">Software Engineers Technical Collection</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="computer_vision_engineers.html">Computer Vision Engineers Technical Collection</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="autonomous_driving_engineer.html">Autonomous Driving Engineer Technical Collection</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+</body>
+
+</html>

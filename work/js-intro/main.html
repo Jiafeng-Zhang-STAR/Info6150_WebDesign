@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home of Technical Collection</title>
+  <link rel="stylesheet" href="head_nav_footer_styles.css">
+  <link rel="stylesheet" href="main_styles.css">
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+  <div id="root">
+    <header class="header">
+      <a href="main.html">
+        <img class="header_logo" src="images/1_logo_self_designed.jpg" alt="Click on the webpage of cute animal protection organization">
+      </a>
+      <h1 class="header_title">Electronics Engineers Technical Collection</h1>
+      <h2 class="header_title_changed">Welcome to the home page of "Electronics Engineers Technical Collection", where you can start exploring the various knowledge commonly used by various electronics engineers</h2>
+    </header>
+
+    <nav class="navigation">
+      <li>
+        <button type="button"  class="button-home">Hardware Programming Languages</button>
+        <ul class="navigation_menu_1 deactivate">
+          <li class="navigation_menu_item"><a class="navigation__link" href="main.html">Homepage</a></li>
+          <li class="navigation_menu_item"><a class="navigation__link" href="mcu_programming_language.html">Embedded C / Assembly</a></li>
+          <li class="navigation_menu_item"><a class="navigation__link" href="fpga_programming_language.html">Verilog / VHDL</a></li>
+        </ul>
+      </li>
+      <li>
+        <button type="button" class="button-about">Programmable Chips</button>
+        <ul class="navigation_menu_2 deactivate">
+          <li class="navigation_menu_item"><a class="navigation__link" href="microcontroller_unit.html">Microcontroller Unit</a></li>
+          <li class="navigation_menu_item"><a class="navigation__link" href="fpga.html">Field Programmable Gate Array </a></li>
+          <li class="navigation_menu_item"><a class="navigation__link" href="gpu.html">Graphics Processing Unit</a></li>
+        </ul>
+      </li>
+      <li>
+        <button type="button" class="button-registration-login">Software Tools</button>
+        <ul class="navigation_menu_3 deactivate">
+          <li class="navigation_menu_item"><a class="navigation__link" href="ide.html">Integrated Dvelopment Environment</a></li>
+          <li class="navigation_menu_item"><a class="navigation__link" href="pcb.html">PCB Design Software</a></li>
+          <li class="navigation_menu_item"><a class="navigation__link" href="simulation.html">Circuit Simulation Software</a></li>
+        </ul>
+      </li>
+    </nav>
+    
+    <main class="main">
+      <h2 class="card_h2_title">Common Hardware Programming Languages</h2>
+
+      <div class="card card_1">
+        <h3 class="card__title">Embedded C Language</h2>
+        <img src="images/2_embedded_c.jpg" alt="This is the language used by most MCU embedded engineers" class="card__picture">
+        <div class="card__text">
+          The main core of embedded C language is the understanding of the registers in the chip, 
+          the timing of various signals of peripherals, and the understanding of signal transmission. 
+          Rational deployment of registers for digital data, on-chip resources, on-board resources, used to achieve a stable hardware system.
+        </div>
+        <a href="embedded_c.html" class="card__cta">Please read more!</a>
+      </div>
+
+      <div class="card card_2">
+        <h3 class="card__title">Verilog</h2>
+        <img src="images/3_verilog.jpg" alt="This is the second-place Ragdoll cat" class="card__picture">
+        <div class="card__text">Verilog is a language commonly used for FPGA programming and can be used for parallel programming. 
+          It can be used to design digital chips, to design high-speed acquisition systems, 
+          for the design of various parallel systems, or for the design of complex timings. Another corresponding programming language is VHDL.</div>
+        <a href="verilog.html" class="card__cta">Please read more!</a>
+      </div>
+
+      <div class="card card_3">
+        <h3 class="card__title">Assembly</h2>
+        <img src="images/4_assembly.jpg" alt="This is the third-place Samoyed dog" class="card__picture">
+        <div class="card__text">Assembly is a relatively low-level language compared to most languages, 
+          and provides insight into assembly language by the number of lines of code running in memory. 
+          Assembly is more cumbersome than other languages in terms of code length, scheduling, and interrupts, 
+          but assembly provides insight into how the CPU operates.</div>
+        <a href="assembly.html"class="card__cta">Please read more!</a>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <nav class="footer__nav">
+        <ul class="footer__menu">
+          <li class="footer__item">
+            <a class="footer__link" href="uva_control_engineers.html">UAV Control Engineers Technical Collection</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="software_engineers.html">Software Engineers Technical Collection</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="computer_vision_engineers.html">Computer Vision Engineers Technical Collection</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="autonomous_driving_engineer.html">Autonomous Driving Engineer Technical Collection</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+</body>
+
+</html>

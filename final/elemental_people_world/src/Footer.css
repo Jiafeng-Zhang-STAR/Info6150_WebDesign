@@ -1,0 +1,47 @@
+
+
+.footer__item a{
+    text-decoration: none;
+}
+
+.footer__list{
+
+    padding: 0;
+    margin: 0;
+    
+    list-style: none; 
+}
+
+
+.footer{
+    display:block;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(225, 141, 33);
+}
+
+.white{
+    background-color: rgb(165, 161, 161);
+}
+
+.green{
+    background-color: rgb(94, 183, 75);
+}
+
+@media screen and (min-width: 44rem){
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+        background-color: rgb(225, 153, 58);
+    }
+    .white{
+        background-color: rgb(165, 161, 161);
+    }
+    
+    .green{
+        background-color: rgb(94, 183, 75);
+    }
+
+}

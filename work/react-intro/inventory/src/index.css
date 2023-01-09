@@ -1,0 +1,88 @@
+.counter{
+    display:grid;
+        grid-template-columns: repeat(4,1ft);
+        grid-template-rows: 1ft;
+        gap:0.5rem;
+        grid-template-areas: 
+        'counter__head counter__head counter__head counter__head'
+        'counter__display button__addition button__subtraction button__reorder'
+        ;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+}
+
+.counter__head{
+    grid-area: counter__head;
+    background-color: rgb(249, 30, 172);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    width: 17.5rem;   
+}
+.counter__display{
+    grid-area: counter__display;
+    background-color: rgb(31, 103, 237);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    width: 8rem;   
+}
+
+.button__addition{
+    grid-area: button__addition;
+    background-color: rgb(222, 35, 215);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    width: 5rem;
+}
+
+.button__subtraction{
+    grid-area: button__subtraction;
+    background-color: rgb(222, 35, 215);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    width: 5rem;
+}
+
+.button__reorder{
+    grid-area: button__reorder;
+    background-color:rgb(244, 90, 29);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 10rem;
+    animation: fade__in 1000ms;
+}
+
+.active:active{
+    animation: spinning 2000ms;
+}
+
+@keyframes fade__in{
+from{opacity: 0;}
+to{opacity: 1;}
+}
+
+@keyframes spinning {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}

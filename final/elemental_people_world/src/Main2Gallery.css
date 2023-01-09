@@ -1,0 +1,198 @@
+ /* .center__picture--zoom{
+    width: 300px;
+    height: 300px;
+} */
+
+/* .previous__picture--box{
+    width: 3rem;
+    height: 3rem;
+}
+
+.center__picture--box{
+    width: 3rem;
+    height: 3rem;
+}
+
+.next__picture--box{
+    width: 3rem;
+    height: 3rem;
+} */ */
+
+
+
+.gallerybox{
+
+    grid-area: e;
+    display: grid;
+    grid-template-columns: repeat(3,1ft);
+    grid-template-rows: 1ft;
+    gap:0.5rem;
+    grid-template-areas: 
+    'o p q'
+    ;
+}
+
+
+.gallery__index{
+    display: grid;
+    grid-template-columns: repeat(3,1ft);
+    grid-template-rows: repeat(8,1ft);
+    gap:0.5rem;
+    grid-template-areas: 
+    'a a a'
+    'b c d'
+    'e e e'
+    'h i j'
+    'k k k'
+    'l l l'
+    'm m m'
+    'n n n'
+    ;
+}
+.gallery__title{
+    grid-area: a;
+    justify-self:center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.profile__lib{
+    grid-area: b;
+    justify-self:center;
+    background-color: lime;
+    width: 10rem;
+    align-items: center;
+    text-align: center;
+}
+
+.equipment__lib{
+    grid-area: c;
+    justify-self:center;
+    background-color: lime;
+    width: 10rem;
+    align-items: center;
+    text-align: center;
+}
+
+.component__lib{
+    grid-area: d;
+    justify-self:center;
+    background-color: lime;
+    width: 10rem;
+    align-items: center;
+    text-align: center;
+}
+
+.gallerybox{
+
+    grid-area: e;
+    display: grid;
+    grid-template-columns: repeat(3,1ft);
+    grid-template-rows: 1ft;
+    gap:0.5rem;
+    grid-template-areas: 
+    'o p q'
+    ;
+}
+
+.gallery__forward{
+    grid-area: h;
+    justify-self:center;
+    background-color: lime;
+    width: 10rem;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery__backward{
+    grid-area: j;
+    justify-self:center;
+    background-color: lime;
+    width: 10rem;
+    align-items: center;
+    text-align: center;
+}
+
+.prompt__message--1{
+    grid-area: k;
+    align-items: center;
+    justify-self:center;
+}
+
+.message__1{
+    grid-area: l;
+    align-items: center;
+    justify-self:center;
+}
+
+.prompt__message--2{
+    grid-area: m;
+    align-items: center;
+    justify-self:center;
+}
+
+.message__2{
+    grid-area: n;
+    align-items: center;
+    justify-self:center;
+}
+
+
+/* .gallerybox{
+    display: grid;
+    grid-template-columns: repeat(3,1ft);
+    grid-template-rows: 1ft;
+    gap:0.5rem;
+    grid-template-areas: 
+    'o p q'
+} */
+
+.previous__picture--box{
+    grid-area: o;
+    justify-self:center;
+    align-items: center;
+    text-align: center;
+}
+
+.center__picture--box{
+    grid-area: p;
+    justify-self:center;
+    align-items: center;
+    text-align: center;
+}
+
+.next__picture--box{
+    grid-area: q;
+    justify-self:center;
+    align-items: center;
+    text-align: center;
+}
+
+.previous__picture{
+    width: 90%;
+    justify-self:center;
+    align-items: center;
+    text-align: center;
+} 
+
+ .next__picture{
+    width: 90%;
+    justify-self:center;
+    align-items: center;
+    text-align: center;
+}
+
+.center__picture{
+    width: 90%;
+    justify-self:center;
+    align-items: center;
+    text-align: center;
+}
+
+.center__picture--zoom{
+    width: 110%;
+    justify-self:center;
+    align-items: center;
+    text-align: center;
+}
